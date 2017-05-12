@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 KISSY CSS Reset
 理念：清除和重置是紧密不可分的
@@ -70,3 +71,28 @@ hr {
 
 /* 让非ie浏览器默认也显示垂直滚动条，防止因滚动条引起的闪烁 */
 html { overflow-y: scroll; }
+
+a:hover{
+    text-decoration: none;
+}
+
+/* 清除浮动 */
+.clearfix:before,.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+    overflow:hidden;
+}
+.clearfix {
+    zoom:1; /* for ie6 & ie7 */
+}
+.clear {
+    clear:both;
+    display:block;
+    font-size:0;
+    height:0;
+    line-height:0;
+    overflow:hidden;
+}
