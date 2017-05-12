@@ -23,6 +23,10 @@
     display: none;
 }
 
+.last-child{
+    background: none !important;
+
+}
 /**
  * 头部
  */
@@ -130,7 +134,10 @@
     font: 16px/36px "Microsoft Yahei";
     color: #a3a3a3;
     font-family: "微软雅黑";
+    display: block;
+    background: url(../img/icon/down.png) center right no-repeat;
     padding-left: 10px;
+    margin-right: 3px;
     /*font-weight: bold;*/
 }
 
@@ -219,7 +226,12 @@
 }
 
 .goods-category-text {
-    margin: 0 20px;
+    width: 160px;
+    display: block;
+    padding-left: 20px;
+    margin-right: 20px;
+    background: url(http://img63.ddimg.cn/upload_img/00459/home/head_sprite.png) no-repeat 161px -567px;
+    /*margin: 0 20px;*/
 }
 
 .goods-category-sj {
@@ -341,8 +353,10 @@
 .goods-category-items dd a{
     margin-right: 10px;
     color: #646464;
-    padding-left: 13px;
-    background: url(../img/icon/head_sprite.png) left -290px;
+    padding-right: 13px;
+    white-space: nowrap;
+    background: url(../img/icon/side_category_bg_line.png) center right no-repeat;
+    /*background: url(../img/icon/head_sprite.png) left -290px;*/
 }
 .goods-category-items dd a:hover{
     color: #ff2832;
@@ -419,16 +433,36 @@
     border: 1px solid #487a6f;
     border-top: 2px dashed #487a6f;
     color: #487a6f;
+    font-family: "Microsoft Yahei";
 }
 .second-book-category dl{
-    padding: 0 10px;
-    display: inline-block;
+    margin: 0 10px;
+    border-bottom: 1px dashed #969696;
+    /*display: inline-block;*/
 
+}
+.second-book-category dl:last-child{
+    border: none;
 }
 .second-book-category dt{
     width: 100%;
-    font: 15px/30px "Microsoft Yahei";
+    font-size: 15px;
     font-weight: bold;
+}
+.second-book-category dt span{
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: url("");
+    background: url(../img/icon/side_category_bg.png) 160px 8px no-repeat;
+}
+.second-book-category dd a{
+    color: #646464;
+    white-space: nowrap;
+    line-height: 24px;
+    height: 24px;
+    padding-right: 5px;
+    background: url(../img/icon/side_category_bg_line.png) center right no-repeat;
 }
 
 
