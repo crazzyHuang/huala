@@ -305,7 +305,7 @@ html a{
 }
 
 .sub-goods-category {
-    z-index: 201;
+    z-index: 199;
     width: 1000px;
     height: 400px;
     background-color: #ffffff;
@@ -604,7 +604,7 @@ html a{
 .new-book-hotsell{
     margin-top: 10px;
     height: 500px;
-    border: 1px solid #487a6f;
+    /*border: 1px solid #487a6f;*/
 }
 
 .new-book-menu-ul{
@@ -710,4 +710,69 @@ right-banner-cont{
 .right-siwper-container{
 
     /*overflow: hidden;*/
+}
+
+.hotsell-title{
+    height: 40px;
+    padding-left: 40px;
+    background: url("../img/icon/badger.png") left center no-repeat;
+}
+.hotsell-title a{
+    color: #ff2832;
+    font: 18px/35px "Microsoft Yahei";
+    font-weight: bold;
+}
+.hotsell-title a:hover{
+    text-decoration: none;
+}
+.hotsell-cont-tab{
+    height: 458px;
+    /*width: 238px;*/
+    border: 1px solid #cecece;
+}
+.hotsell-cont-head{
+    /*margin-left: 1px;*/
+}
+.hotsell-cont-head a{
+    /*font: 14px/28px "Microsoft Yahei";*/
+    /*font-weight: bold;*/
+    /*padding: 0 8px;*/
+}
+
+
+.hotsell-cont-tab li{
+    float: left;
+    width: 48px;
+    /*border-right: 1px solid #cecece;*/
+    /*border-bottom: 1px solid #cecece;*/
+}
+
+.hotsell-cont-tab span{
+    display: block;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #cecece;
+    border-left: 0;
+    border-top: 0;
+    padding: 2px 0 1px;
+    color: #000;
+    cursor: pointer;
+}
+.hotsell-cont-tab span:hover{
+    border-bottom: 0;
+    border-top: 2px solid #487a6f;
+    height: 17px;
+    line-height: 17px;
+    color: #487a6f;
+    font-weight: bold;
+}
+
+.hotsell-last-child{
+    width: 46px !important;
+
+}
+.hotsell-cont{
+    height: 435px;
+    /*background-color: #ff2832;*/
 }
