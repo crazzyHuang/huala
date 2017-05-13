@@ -73,7 +73,7 @@ hr {
 html { overflow-y: scroll; }
 
 a:hover{
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* 清除浮动 */
