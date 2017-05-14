@@ -357,6 +357,7 @@ html a {
     border-bottom: 1px dotted #969696;
 }
 
+
 .goods-category-cont dl {
     padding: 10px 0;
     margin-right: 10px;
@@ -619,6 +620,7 @@ html a {
 }
 
 .new-book-menu li {
+    padding: 10px 0;
     width: 150px;
     float: left;
     margin-right: 37px;
@@ -668,7 +670,11 @@ html a {
     color: #969696;
 }
 
-.swiper-container {
+/*.swiper-container {*/
+    /*width: 750px;*/
+    /*height: 315px;*/
+/*}*/
+.center-area-swiper{
     width: 750px;
     height: 315px;
 }
@@ -695,6 +701,17 @@ html a {
     background: url("../img/icon/dot.png") left center no-repeat;
 }
 
+
+.center-second-swiper .swiper-button-prev{
+    /*height: 30px;*/
+    background-image: url("../img/icon/left.png");
+}
+.center-second-swiper .swiper-button-next{
+    /*height: 30px;*/
+    background-image: url("../img/icon/right.png");
+}
+
+
 .right-banner {
     height: 193px;
     border: 1px solid #cecece;
@@ -719,10 +736,30 @@ right-banner-cont {
     height: 160px;
     width: 238px;
 }
+.bn-book-cont{
+    margin-top: 20px;
+}
+.bn-book-cont a{
+    color: #646464;
+}
+.bn-book-cont a:hover{
+    color: #ff2832;
+}
+.bn-book-cont p{
+    line-height: 20px;
+}
 
-.right-siwper-container {
+.right-news-swiper {
+    height: 158px;
+}
 
-    /*overflow: hidden;*/
+.right-news-swiper .swiper-button-prev{
+    height: 30px;
+    background-image: url("../img/icon/left.png");
+}
+.right-news-swiper .swiper-button-next{
+    height: 30px;
+    background-image: url("../img/icon/right.png");
 }
 
 .hotsell-title {
@@ -742,7 +779,7 @@ right-banner-cont {
 }
 
 .hotsell-cont-tab {
-    height: 458px;
+    /*height: 458px;*/
     /*width: 238px;*/
     border: 1px solid #cecece;
 }
@@ -785,6 +822,14 @@ right-banner-cont {
     color: #487a6f;
     font-weight: bold;
 }
+.hotsell-cont-tab .hotsell-cont-head .head-active{
+    border-bottom: 0;
+    border-top: 2px solid #487a6f;
+    height: 17px;
+    line-height: 17px;
+    color: #487a6f;
+    font-weight: bold;
+}
 
 .hotsell-cont-tab .hotsell-cont-head a:hover {
     color: #487a6f;
@@ -796,7 +841,7 @@ right-banner-cont {
 }
 
 .hotsell-cont {
-    height: 435px;
+    /*height: 435px;*/
     font-family: "Microsoft Yahei";
     /*background-color: #ff2832;*/
 }
@@ -808,6 +853,9 @@ right-banner-cont {
     border-bottom: 1px dotted #969696;
     /*border: none;*/
     /*font: 18px/35px "Microsoft Yahei";*/
+}
+.hotsell-cont .hs-last-list-item{
+    border-bottom: none;
 }
 
 .list-num-1 {
@@ -892,4 +940,18 @@ right-banner-cont {
 .hs-book-comment{
     color: #487a6f;
     font-weight: bold;
+}
+.hotsell-cont .hotsell-list-on{
+    height: 150px;
+}
+.hotsell-list-on > .off-item{
+    display: none;
+}
+.hotsell-list-on > .on-item{
+    display: block;
+}
+.see-all{
+    padding: 10px 10px 10px 0;
+    float: right;
+    display: block;
 }
