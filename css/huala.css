@@ -3,7 +3,7 @@
  * 公共部分
  */
 
-html a{
+html a {
     font-family: "Microsoft Yahei";
 }
 
@@ -585,12 +585,13 @@ html a{
     /*background-color: #99602d;*/
 }
 
-.new-book-coming{
+.new-book-coming {
     margin-top: 10px;
     height: 500px;
     /*border: 1px solid #487a6f;*/
 }
-.new-book-coming-img{
+
+.new-book-coming-img {
     height: 43px;
     width: 750px;
     background: url("http://book.dangdang.com/Standard/Book/Extend/hosts/images/home/new_book.png") no-repeat;
@@ -601,45 +602,50 @@ html a{
     /*height: 200px;*/
 
 }
-.new-book-hotsell{
+
+.new-book-hotsell {
     margin-top: 10px;
     height: 500px;
     /*border: 1px solid #487a6f;*/
 }
 
-.new-book-menu-ul{
+.new-book-menu-ul {
     padding-top: 15px;
 }
-.new-book-menu a{
+
+.new-book-menu a {
     color: black;
 
 }
-.new-book-menu li{
+
+.new-book-menu li {
     width: 150px;
     float: left;
     margin-right: 37px;
 }
 
-
-.book-name{
+.book-name {
     padding: 7px 20px 0;
     height: 18px;
     line-height: 18px;
     overflow: hidden;
 }
-.book-author{
+
+.book-author {
     padding: 7px 20px 0;
     line-height: 14px;
     height: 15px;
     color: #969696;
     overflow: hidden;
 }
-.real-price{
+
+.real-price {
     padding-right: 10px;
     color: #cf2731;
     font-weight: bold;
 }
-.price{
+
+.price {
     padding: 5px 0 0 19px;
     height: 32px;
     line-height: 16px;
@@ -648,12 +654,15 @@ html a{
     font-size: 14px;
     position: relative;
 }
-.real-price-num{
+
+.real-price-num {
     margin-left: -5px;
 }
+
 .price-symbol {
 }
-.old-price{
+
+.old-price {
     text-decoration: line-through;
     overflow: hidden;
     color: #969696;
@@ -697,57 +706,65 @@ html a{
     display: block;
     padding-right: 10px;
 }
-.banner-title a{
+
+.banner-title a {
     color: #646464;
 }
-.banner-title a:hover{
+
+.banner-title a:hover {
     color: #ff2832;
 }
-right-banner-cont{
+
+right-banner-cont {
     height: 160px;
     width: 238px;
 }
-.right-siwper-container{
+
+.right-siwper-container {
 
     /*overflow: hidden;*/
 }
 
-.hotsell-title{
+.hotsell-title {
     height: 40px;
     padding-left: 40px;
     background: url("../img/icon/badger.png") left center no-repeat;
 }
-.hotsell-title a{
+
+.hotsell-title a {
     color: #ff2832;
     font: 18px/35px "Microsoft Yahei";
     font-weight: bold;
 }
-.hotsell-title a:hover{
+
+.hotsell-title a:hover {
     text-decoration: none;
 }
-.hotsell-cont-tab{
+
+.hotsell-cont-tab {
     height: 458px;
     /*width: 238px;*/
     border: 1px solid #cecece;
 }
-.hotsell-cont-head{
+
+.hotsell-cont-head {
     /*margin-left: 1px;*/
 }
-.hotsell-cont-head a{
+
+.hotsell-cont-head a {
     /*font: 14px/28px "Microsoft Yahei";*/
     /*font-weight: bold;*/
     /*padding: 0 8px;*/
 }
 
-
-.hotsell-cont-tab li{
+.hotsell-cont-tab .hotsell-cont-head li {
     float: left;
     width: 48px;
     /*border-right: 1px solid #cecece;*/
     /*border-bottom: 1px solid #cecece;*/
 }
 
-.hotsell-cont-tab span{
+.hotsell-cont-tab .hotsell-cont-head span {
     display: block;
     text-align: center;
     height: 20px;
@@ -759,7 +776,8 @@ right-banner-cont{
     color: #000;
     cursor: pointer;
 }
-.hotsell-cont-tab span:hover{
+
+.hotsell-cont-tab .hotsell-cont-head span:hover {
     border-bottom: 0;
     border-top: 2px solid #487a6f;
     height: 17px;
@@ -768,11 +786,110 @@ right-banner-cont{
     font-weight: bold;
 }
 
-.hotsell-last-child{
+.hotsell-cont-tab .hotsell-cont-head a:hover {
+    color: #487a6f;
+}
+
+.hotsell-last-child {
     width: 46px !important;
 
 }
-.hotsell-cont{
+
+.hotsell-cont {
     height: 435px;
+    font-family: "Microsoft Yahei";
     /*background-color: #ff2832;*/
+}
+
+.hotsell-cont li {
+    margin: 0 15px;
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px dotted #969696;
+    /*border: none;*/
+    /*font: 18px/35px "Microsoft Yahei";*/
+}
+
+.list-num-1 {
+    width: 28px;
+    font-size: 18px;
+    font-family: "黑体";
+    font-weight: bold;
+    color: #ff2832;
+}
+.list-num{
+    width: 28px;
+    font-size: 18px;
+    font-family: "黑体";
+    font-weight: bold;
+    color: #646464;
+}
+
+.hs-book-title {
+    width: 180px;
+    height: 36px;
+    overflow: hidden;
+    font-size: 13px;
+
+}
+
+.off-item {
+    /*display: none;*/
+    /*position: relative;*/
+}
+
+.on-item {
+    width: 170px;
+    height: 140px;
+    padding: 5px;
+    position: relative;
+    display: none;
+}
+
+.hotsell-cont li:hover {
+    height: 150px;
+}
+
+.hotsell-cont li:hover > .off-item {
+    display: none;
+}
+
+.hotsell-cont li:hover > .on-item {
+    display: block;
+}
+
+.on-item-img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+
+.on-item-prefix {
+    top: 20px;
+    left: 120px;
+    position: absolute;
+}
+
+.on-item-title {
+    overflow: hidden;
+    height: 40px;
+    line-height: 20px;
+}
+
+.on-item-title a {
+    color: #545454;
+}
+
+.on-item-title a:hover {
+    color: #ff2832;
+}
+
+.on-item-prefix p {
+    line-height: 20px;
+}
+.hs-book-comment{
+    color: #487a6f;
+    font-weight: bold;
 }
