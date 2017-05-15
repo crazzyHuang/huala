@@ -303,8 +303,8 @@ html a {
     color: #ff2832;
     font-size: 18px;
 }
-.goods-category-detail-a-on{
-    color: #ff2832 !important;
+.goods-category-detail li .goods-category-detail-a-on{
+    color: #ff2832;
     font-size: 18px;
 }
 
