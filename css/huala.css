@@ -303,6 +303,10 @@ html a {
     color: #ff2832;
     font-size: 18px;
 }
+.goods-category-detail-a-on{
+    color: #ff2832;
+    font-size: 18px;
+}
 
 .sub-goods-category {
     z-index: 199;
